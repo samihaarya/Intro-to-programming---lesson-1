@@ -1,0 +1,46 @@
+body{
+  border: solid 2px #ffc000;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-weight: 18px;
+}
+h1{
+  text-align: center;
+  padding-top: 25px;
+  color: blue;
+  font-family: 'Merienda One', cursive;
+  font-weight: 60px;
+}
+h2,h3,h4{
+  font-family: 'Mirza', cursive;
+  color: #ffc000;
+}
+p,li{
+  padding-left: 10px;
+  font-weight: 18px;
+}
+h3{
+  padding-left: 2px;
+}
+h4{
+  padding-left: 5px;
+  font-weight: bolder;
+}
+.container{
+  border: solid 1px blue;
+  -webkit-box-shadow: -9px -7px 24px -8px rgba(121,118,204,1);
+  -moz-box-shadow: -9px -7px 24px -8px rgba(121,118,204,1);
+  box-shadow: -9px -7px 24px -8px rgba(121,118,204,1);
+  padding: 25px;
+  background-color: honeydew;
+}
+.right{
+  width: 40%;
+  margin-left: 10%;
+  float: right;
+}
+.left{
+  width: 45%;
+  margin-left: 5%;
+  float: left;
+}
