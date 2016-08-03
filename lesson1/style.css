@@ -11,6 +11,9 @@ h1{
   font-family: 'Merienda One', cursive;
   font-weight: 60px;
 }
+a{
+  color: #4f5458;
+}
 h2,h3,h4{
   font-family: 'Mirza', cursive;
   color: #ffc000;
