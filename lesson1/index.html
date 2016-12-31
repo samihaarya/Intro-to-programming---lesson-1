@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <link href="style.css" rel="stylesheet" type="text/css">
@@ -17,12 +17,11 @@
         <h2><b>CONTENTS</b></h2>
         <ul>
           <li><a href="index.html">OVERVEIW</a></li>
-          <li><a href="index.html">BASIC ELEMENTS</a></li>
           <li><a href="index.html">ELEMENTS</a></li>
-          <li><a href="index.html"> .0 basic elements</a></li>
-          <li><a href="index.html"> .1 document metadata</a></li>
-          <li><a href="index.html"> .2 examples</a></li>
-          <li><a href="index.html"> .3 attributes</a></li>
+          <li>a) <a href="index.html">basic elements</a></li>
+          <li>b) <a href="index.html">document metadata</a></li>
+          <li>c) <a href="index.html">examples</a></li>
+          <li>d) <a href="index.html">attributes</a></li>
           <li><a href="index.html">MARKUP</a></li>
         </ul>
       </div>
@@ -38,7 +37,7 @@
       </p>
     </div>
     <div class="row">
-      <h3>ELEMENTS<h3>
+      <h3>ELEMENTS</h3>
       <h4>Basic Elements</h4>
       <p>Basic elements are the backbone of any HTML document. You'll see these elements in the source code for all web pages, following the doctype declaration, which is on the first line of the page. The doctype specifies which version of HTML that page is using. The <code>&lt;html&gt;</code> element is also known as the root element.<br>
         HTML documents imply a structure of nested HTML elements. These are indicated in the document by HTML tags, enclosed in angle brackets thus: <code>&lt;p&gt;</code><br>
@@ -50,11 +49,10 @@
       <h4>Examples</h4>
       <p>Header of the HTML document:<code>&lt;head&gt;</code>...<code>&lt;/head&gt;</code>.<br></p>
       <p>The title is included in the head, for example:
-
 			  <code>&lt;head&gt;</code>
-				  <code>&lt;title&gt;</code>The Title<code>&lt;title>
-				<code>&lt;/head&gt;</code></p>
-
+				  <code>&lt;title&gt;</code>The Title<code>&lt;title></code>
+				<code>&lt;/head&gt;</code>
+      </p>
 	    <p>Headings: HTML headings are defined with the <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> tags:</p>
       <p>
       	<code>&lt;h1&gt;</code>Heading level 1<code>&lt;/h1&gt;</code><br>
@@ -62,7 +60,8 @@
       	<code>&lt;h3&gt;</code>Heading level 3<code>&lt;/h3&gt;</code><br>
       	<code>&lt;h4&gt;</code>Heading level 4<code>&lt;/h4&gt;</code><br>
       	<code>&lt;h5&gt;</code>Heading level 5<code>&lt;/h5&gt;</code><br>
-      	<code>&lt;h6&gt;</code>Heading level 6<code>&lt;/h6&gt;</code><br></p>
+      	<code>&lt;h6&gt;</code>Heading level 6<code>&lt;/h6&gt;</code><br>
+      </p>
 	    <p>Paragraphs:</p>
   	  <p>
         <code>&lt;p&gt;</code>Paragraph 1<code>&lt;/p&gt;</code>  <code>&lt;p&gt;</code>Paragraph 2<code>&lt;/p&gt;</code><br>
@@ -74,29 +73,30 @@
    </div>
    <div class="row">
      <h4>Attributes</h4>
-     <p>Most of the attributes of an element are name-value pairs, separated by "=" and written within the start tag of an element after the element's name. The value may be enclosed in single or double quotes<br>
-       <ul>
-         <li>The id attribute provides a document-wide unique identifier for an element. </li>
-         <li>The class attribute provides a way of classifying similar elements. </li>
-         <li>The title attribute is used to attach subtextual explanation to an element. In most browsers this attribute is displayed as a tooltip.</li>
-         <li>The lang attribute identifies the natural language of the element's contents, which may be different from that of the rest of the document.</li></ul></p>
-    </div>
-    <div class="row">
-      <h3>MARKUP</h3>
-      <p>HTML markup consists of several key components, including those called tags (and their attributes), character-based data types, character references and entity references. HTML tags most commonly come in pairs like <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code>, although some represent empty elements and so are unpaired, for example <code>&lt;img&gt;</code>. The first tag in such a pair is the start tag, and the second is the end tag (they are also called opening tags and closing tags).
-      </p>
-      <p>
-        <code>&lt;!DOCTYPE html&gt;</code><br>
-        <code>&lt;html&gt;</code><br>
-        <code>&lt;head&gt;</code><br>
-        <code>&lt;title&gt;</code>This is a title<code>&lt;/title&gt;</code><br>
-        <code>&lt;/head&gt;</code><br>
-        <code>&lt;bod&gt;</codey><br>
-        <code>&lt;p&gt;</code>Hello world!<code>&lt;/p&gt;</code><br>
-        <code>&lt;/body&gt;</code><br>
-        <code>&lt;/html&gt;</code><br>
-      </p>
-    </div>
-  </div>
+     <p>Most of the attributes of an element are name-value pairs, separated by "=" and written within the start tag of an element after the element's name. The value may be enclosed in single or double quotes<br></p>
+     <ul>
+       <li>The id attribute provides a document-wide unique identifier for an element. </li>
+       <li>The class attribute provides a way of classifying similar elements. </li>
+       <li>The title attribute is used to attach subtextual explanation to an element. In most browsers this attribute is displayed as a tooltip.</li>
+       <li>The lang attribute identifies the natural language of the element's contents, which may be different from that of the rest of the document.</li>
+     </ul>
+   </div>
+   <div class="row">
+     <h3>MARKUP</h3>
+     <p>HTML markup consists of several key components, including those called tags (and their attributes), character-based data types, character references and entity references. HTML tags most commonly come in pairs like <code>&lt;h1&gt;</code> and <code>&lt;/h1&gt;</code>, although some represent empty elements and so are unpaired, for example <code>&lt;img&gt;</code>. The first tag in such a pair is the start tag, and the second is the end tag (they are also called opening tags and closing tags).
+     </p>
+     <p>
+       <code>&lt;!DOCTYPE html&gt;</code><br>
+       <code>&lt;html&gt;</code><br>
+       <code>&lt;head&gt;</code><br>
+       <code>&lt;title&gt;</code>This is a title<code>&lt;/title&gt;</code><br>
+       <code>&lt;/head&gt;</code><br>
+       <code>&lt;bod&gt;</code><br>
+       <code>&lt;p&gt;</code>Hello world!<code>&lt;/p&gt;</code><br>
+       <code>&lt;/body&gt;</code><br>
+       <code>&lt;/html&gt;</code><br>
+     </p>
+   </div>
+ </div>
 </body>
 </html>
